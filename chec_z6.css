@@ -1,0 +1,10 @@
+body {
+  color: blue;
+  font-size: 30pt;
+}
+p.blue {
+  color: blue;
+}
+p.green {
+  color: green;
+}
