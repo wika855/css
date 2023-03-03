@@ -1,0 +1,27 @@
+/*3.03.2023 Wiktoia Cechła */
+p#pogrubienie_Hirsz {
+    color: #915ed1;
+    font-size: 30px;
+}
+p#pochylona_Hirsz { 
+    color: #f5c26d;
+    font-size: 35pt;
+}
+p#index_gorny_Hirsz {
+    color: #a5901d;
+    font-size: 1cm;
+}
+p#index_dolny_Hirsz {
+    color: rgb(65%,96%,29%);
+    font-size: 1.5cm;
+}
+p#mono_Hirsz {
+    color: #25e06d;
+    font-size: 40px;
+}
+p#powiekszenie_Hirsz {
+    color: #5f409f;
+}
+p#pomniejszenie_Hirsz {
+    color: rgb(95%,64%,59%);
+}
