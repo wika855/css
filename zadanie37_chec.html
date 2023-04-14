@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<h2>1.1 Zastosowanie składni</h2>
+Przy użyciu selektora potomka można formatować elementy, które sa zawarte wewnątrz innych znaczników, czyli leżą niżej w hierarchii drzewa dokumentu.
+<h2>1.2 Składnia</h2>
+<TEXTAREA cols="60" rows="2">
+przodek1 przodek2 ... potomek { cecha: wartość }
+</TEXTAREA>
+<h2>2. Do formatowania jakich elementów służy?</h2>
+Selektor potomka pozwala nadać atrybuty elementom, które leżą niżej w hierarchii drzewa dokumentu (zawierają się w innych zewnętrznych znacznikach). <br>
+Dzięki temu możemy zmienić typ formatowania tylko dla określonych elementów, które są podrzędne w stosunku do innych (przodków).
+
+<h2>3. Składnia z opisem</h2>
+<TEXTAREA cols="60" rows="20">
+<html>
+<head>
+<title>styl wpisany</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+p b { color: red }
+</style>
+</head>
+<body>
+<p>Dzięki temu, jeśli wewnątrz znacznika p (akapit)<br>
+<b> znajdzie się znacznik b (czyli pogrubienie tekstu), to zostanie on automatycznie </b><br>
+napisany czcionką koloru czerwonego.</p>
+</body>
+</html>
+</TEXTAREA><br>
+<b>Wygląd ekranu:</b><br>
+
+Dzięki temu, jeśli wewnątrz znacznika p (akapit)
+znajdzie się znacznik b (czyli pogrubienie tekstu), to zostanie on automatycznie
+napisany czcionką koloru czerwonego.
+
+
+<b>"przodek1, przodek2,..."</b> oraz <b>"potomek"</b> (wielokropek należy pominąć!) są selektorami typu, przy czym przodek leży wyżej w hierarchii drzewa dokumentu
+Natomiast wyrazy "cecha" oraz "wartość" określają atrybuty elementu.
