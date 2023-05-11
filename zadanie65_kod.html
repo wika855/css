@@ -1,0 +1,95 @@
+<h2>HTML</h2>
+<TEXTAREA cols="90" rows="47">
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wiktoria Chehcła</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<LINK href="zadanie65_chec.css" rel="stylesheet" type="text/CSS">
+</head>
+<div id="pierwszy_chechla"><p>Pierwszy akapit/pierwszy DIV--> chechła<br>nazwa ID akapitu id="pierwszy_chechla"</p>
+<p>Drugi akapit/pierwszy DIV<br>
+pierwszy akapit -->p:first-child {font-size:11pt;font-style:italic;}<br>
+bo numer parzysty w dzienniku<br>
+pozostałe akapity--> p{font-size:7mm} bo numer nieparzysty<br>
+szerokość bloku = 700+25*4=800<br>
+pierwszt DIV--> kolor jasno zielony</p>
+
+<p>trzaeci akapit/pierwszy DIV<br>
+pierwszy DIV--> obramowanie granatowe DIV
+pierwszy DIV--> obramowanie grubość 13px
+pierwszy DIV--> r1=7px+6(Wiktoria)=13px</p>
+</div>
+<div id="drugi_chechla"><p>Pierwszy akapit/drugi DIV--> Wiktoria <br> nazwa ID akapitu id="drugi_chechla"</p>
+<p>Drugi akapit/drugi DIV <br>
+drugi DIV--> kolor jasny niebieski</p>
+
+<p>trzeci akapit/drugi DIV<br>
+drugi DIV-->obramowanie czarne DIV<br>
+drugi DIV-->obramowanie grubość 14px,ciagłę (solid)<br>
+drugi DIV-->r2=7px+7px(chechła)</p>
+</div>
+<div id="trzeci_chechla"><p>Pierwszy akapit/trzeci DIV--> klasa ucznia 1P nazwa ID akapitu id="trzeci_chechla"</p>
+<p>Drugi akapit/trzeci Div<br>
+pierwszy Div--> kolor różowy</p>
+
+<p>trzeci akapit/trzeci Div(solid)<br>
+trzeci DIV--> obramowanie fioletowy DIV<br>
+trzeci DIV--> obramowanie grubość 18px ciagłe(solid)<br>
+trzeci DIV-->r3=7px+11px=18px (listopad)</p>
+</div>
+</body>
+ </html>
+</TEXTAREA>
+
+<h2> CSS </h2>
+<TEXTAREA cols="60" rows="50">
+body{
+background-color:silver;
+}
+
+p:first-child{
+	font-size:9mm;
+	font-style:italic;
+}
+
+p{
+	font-size:10pt;
+	
+}
+div#pierwszy_chechla{
+	width:800pt;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:red;
+	border: solid 3px rgb(0,0,0) ;
+	border-top-right-radius: 13px;
+	border-top-left-radius:13px;
+	border-bottom-right-radius:13px;
+	border-bottom-left-radius:13px
+}
+
+
+div#drugi_chechla{
+	width:1000pt;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:green;
+	border: solid 5px rgb(38, 87, 241) ;
+	border-top-right-radius: 14px;
+	border-top-left-radius:14px;
+	border-bottom-right-radius:14px;
+	border-bottom-left-radius:14px
+}
+
+
+div#trzeci_chechla{
+	width:1200pt;
+	background-color:rgb(255, 18, 180);
+	border: solid 7px rgb(148, 19, 222);
+	border-top-right-radius: 18px;
+	border-top-left-radius:18px;
+	border-bottom-right-radius:18px;
+	border-bottom-left-radius:18px
+}
+</TEXTAREA>

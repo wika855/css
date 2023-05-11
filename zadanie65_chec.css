@@ -1,0 +1,48 @@
+body{
+background-color:silver;
+}
+
+p:first-child{
+	font-size:9mm;
+	font-style:italic;
+}
+
+p{
+	font-size:10pt;
+	
+}
+div#pierwszy_chechla{
+	width:800pt;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:red;
+	border: solid 3px rgb(0,0,0) ;
+	border-top-right-radius: 13px;
+	border-top-left-radius:13px;
+	border-bottom-right-radius:13px;
+	border-bottom-left-radius:13px
+}
+
+
+div#drugi_chechla{
+	width:1000pt;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:green;
+	border: solid 5px rgb(38, 87, 241) ;
+	border-top-right-radius: 14px;
+	border-top-left-radius:14px;
+	border-bottom-right-radius:14px;
+	border-bottom-left-radius:14px
+}
+
+
+div#trzeci_chechla{
+	width:1200pt;
+	background-color:rgb(255, 18, 180);
+	border: solid 7px rgb(148, 19, 222);
+	border-top-right-radius: 18px;
+	border-top-left-radius:18px;
+	border-bottom-right-radius:18px;
+	border-bottom-left-radius:18px
+}
