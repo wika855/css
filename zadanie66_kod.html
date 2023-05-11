@@ -1,0 +1,65 @@
+<h2>HTML</h2>
+<TEXTAREA cols="90" rows="33">
+<!DOCTYPE html>
+<html lang="pl-PL">
+ <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="zad66_chec.css">
+    <title>zad66</title>
+	<body>
+Pseudoelementy
+<ul>
+<li>:first-line(obejmuje formatowaniem całą pierwszą linię.)</li>
+Przyklad: <br>
+<p id="p1"><u>CSS</u> <br> Kaskadowe Arkusze Stylow (s ang. Cascading Stile Sheets) jest to specjalny <br>
+język stworzony w celu elastycznego zarządzania sposobem formatowania (wyglądem) <br>
+elementów znajdujących się na stronach WWW. <br></p>
+<li>:after oraz :before(y służą do umieszczania tekstu przed i za formatowanym elementem strony)</li>
+Przyklad: <br>
+<p id="p2"> <br><u>CSS</u>  Kaskadowe Arkusze Stylow (s ang. Cascading Stile Sheets) jest to specjalny <br>
+    język stworzony w celu elastycznego zarządzania sposobem formatowania (wyglądem) <br>
+    elementów znajdujących się na stronach WWW. <br></p>
+<li>:first-letter(formatuje pierwszą litere w bloku tekstu)</li>
+Przyklad: <br>
+<p id="p3"><u>CSS</u>  Kaskadowe Arkusze Stylow (s ang. Cascading Stile Sheets) jest to specjalny <br>
+    język stworzony w celu elastycznego zarządzania sposobem formatowania (wyglądem) <br>
+    elementów znajdujących się na stronach WWW. <br></p>
+</ul>
+</body>
+</html>
+</TEXTAREA>
+
+<h2> CSS </h2>
+<TEXTAREA cols="40" rows="33">
+p
+ {
+ color:navy;
+ font-size:14pt;
+ }
+p#p1:first-line
+ {
+ color:red;
+ font-size:24pt;
+ font-weight:bold;
+ }
+ p#p2:before
+ {
+ content:"Początek 2 akapitu";
+ font-size:19pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+p#p2:after
+ {
+ content:"Koniec 2 akapitu ";
+ font-size:19pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+ p#p3:first-letter
+ {
+ color:red;
+ font-size:24pt;
+ }
+
+</TEXTAREA>

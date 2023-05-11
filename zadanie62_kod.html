@@ -1,0 +1,62 @@
+<h2>HTML</h2>
+<TEXTAREA cols="90" rows="40">
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="zad62_chec.css">
+    <title>zad62</title>
+ </head>
+<body>
+   <p>bez p lang<br>
+<u>Uwaga1:</u>  <br>
+ Komentarze w arkuszu stylów <br>
+pisze się używając znaków: /* (otworzenie komentarza) oraz */ (zamknięcie komentarza), <br>
+ np.: /*to jest komentarz*/.<br>
+Wszystko pomiędzy tymi znakami jest ignorowane przez przeglądarkę. <br>
+<u>Uwaga2:</u>  <br>
+Część poleceń stylów CSS nie sa interpretowane przez niektóre przeglądarki internetowe lub<br> 
+jest obsługiwana odmiennie. Dlatego zawsze należy sprawdzać efekty w praktyce - jeśli to<br> 
+możliwe, to najlepiej w kilku najbardziej popularnych przeglądarkach: Microsoft Internet<br>
+Explorer, Netscape/Mozilla/Firefox (czyli przeglądarki oparte na silniku Gecko), Opera.<br> </p>
+  
+
+    <p lang="pl">
+p lang pl <br>
+<u>CSS</u>  Kaskadowe Arkusze Stylow (s ang. Cascading Stile Sheets) jest to specjalny <br>
+język stworzony w celu elastycznego zarządzania sposobem formatowania (wyglądem) <br>
+elementów znajdujących się na stronach WWW. <br></p>
+
+
+<p lang="en">
+    p lang en <br>
+<u>CSS - Cascading Style SHeets</u>  is a special language created to flexibly <br>
+manage the formating (appearance) of elements on web pages. <br>
+</p>
+
+</body>
+</html>
+</TEXTAREA>
+
+<h2> CSS </h2>
+<TEXTAREA cols="30" rows="20">
+body{
+
+    background-color: silver;
+}
+
+p{
+    color:rgb(255,255,0);
+    font-size: 5mm;
+}
+p:lang(pl)
+{
+    color:rgb(255, 215, 0); 
+    font-size: 6mm;
+}
+p:lang(en)
+{
+    color:rgb(128, 128, 128);
+    font-size: 10mm;
+}
+</TEXTAREA>
